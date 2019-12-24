@@ -1,0 +1,20 @@
+﻿list,label::English,name
+water_source,Public tap/standpipe,publicTap_standpip
+water_source,Handpumps/boreholes,handpumps_borehole
+water_source,Protected well,protectedWell
+water_source,Unprotected well,unprotectedWell
+water_source,Water seller/kiosks,waterSeller_kiosks
+water_source,Piped connection to house (or neighbor's house),ipedConnectionToHouseOrNeighbors
+water_source,Protected spring,protectedSpring
+water_source,Unprotected spring,unprotectedSpring
+water_source,Rain water collection,rainWaterCollection
+water_source,Bottled water,bottledWater
+water_source,water sachets,waterSachets
+water_source,Tanker trucks,tankerTrucks
+water_source,"Surface water (lake, dam, river, etc.)",surfaceWater
+water_source,Other (please specify),other
+water_source,Don’t know,dkn
+yes_no_dkn,"Yes
+",yes
+yes_no_dkn,No,no
+yes_no_dkn,Don’t know,dkn

@@ -1,0 +1,138 @@
+﻿interview_method,sector,Theme,Priority,macro_indicator,sub_indicator,label::English,Answers,qtype,choices_list,type
+household,WASH,Water,1,Percentage of households having access to an improved water source,Percentage of households by type of primary source of drinking water,What is the main source of water used by your household for drinking?,,select_one,water_source,select_one water_source
+household,WASH,Water,2,Percentage of households having access to an improved water source,Percentage of households by type of secondary sources of drinking water,"Aside from this main source, does your household use other sources of water for drinking? If yes, which ones?","1) ☐ Yes; ☐ No; ☐ Don’t know 
+ 2) If yes, select multiple:
+ ☐ Public tap/standpipe
+ ☐ Handpumps/boreholes 
+ ☐ Protected well
+ ☐ Unprotected well 
+ ☐ Water seller/kiosks 
+ ☐ Piped connection to house (or neighbor's house) 
+ ☐ Protected spring 
+ ☐ Unprotected spring 
+ ☐ Rain water collection 
+ ☐ Bottled water, water sachets 
+ ☐ Tanker trucks 
+ ☐ Surface water (lake, pond, dam, river) 
+ ☐ Other (please specify) 
+ ☐ Don’t know
+ ☐ Other (please list)
+ ☐ Don’t know",select_multiple,,
+household,WASH,Water,2,Percentage of households having access to an improved water source,"Percentage of households by type of primary source of water for other purposes such as cooking, bathing and washing","What is the main source of water used by your household for other purposes such as cooking, bathing and washing?","☐ Public tap/standpipe
+ ☐ Handpumps/boreholes 
+ ☐ Protected well
+ ☐ Unprotected well 
+ ☐ Water seller/kiosks 
+ ☐ Piped connection to house (or neighbor's house) 
+ ☐ Protected spring 
+ ☐ Unprotected spring 
+ ☐ Rain water collection 
+ ☐ Bottled water, water sachets 
+ ☐ Tanker trucks 
+ ☐ Surface water (lake, pond, dam, river) 
+ ☐ Other (please specify) 
+ ☐ Don’t know
+ ☐ Other (please list)
+ ☐ Don’t know",select_one,,
+household,WASH,Water,1,Percentage of households having access to a sufficient quantity of water,"Percentage of households reporting having enough water for drinking, cooking, bathing and washing",Does your household currently have enough water to meet the following needs?,"☐ Drinking 
+ ☐ Cooking 
+ ☐ Personal hygiene (washing or bathing) 
+ ☐ Other domestic purposes (cleaning house, floor, etc.) 
+ ☐ Not enough water to meet any of the above needs 
+ ☐ Don’t know",select_one,,
+household,WASH,Water,2,Percentage of households having access to a sufficient quantity of water,Percentage of households by water storage and transportation capacity (liters),May I see all the containers you have for storing and collecting water?,"1) ☐ Yes (permission granted); ☐ No (permission denied)
+ 2) If yes, fulfil the calculation table:
+ a) Note type (protected or not) and size of container 
+ b) # of containers of each type and size",Fill_table,,
+household,WASH,Water,2,Percentage of households having access to a sufficient quantity of water,Percentage of households by litres/person/day,"Which containers were used to collect water for domestic purposes (drinking, cooking, bathing and washing) yesterday? How many times each container was fulfilled?",Insert a calculation table or have ODK calculate,Fill_table,,
+household,WASH,Water,1,Percentage of households having access to a sufficient quantity of water,"Percentage of households by time (minutes) taken to fetch water (round trip by walking, queuing and time needed to fetch water)","How long does it take to go to your main water source, fetch water, and return (including queuing at the water source)?","☐ Water on premises 
+ ☐ Less than 5 min to fetch and return 
+ ☐ Between 5 and 15 min to fetch and return 
+ ☐ Between 16 and 30 min to fetch and return
+ ☐ More than 31min to fetch and return 
+ ☐ Don’t know",select_one_and_integer,,
+household,WASH,Water,1,Percentage of households having access to a sufficient quantity of water,Percentage of households having problems related to access to water - by type of problems,"Does your household have problems related to access to water? If yes, which ones?","1) ☐ Yes; ☐ No; ☐ Don’t know 
+ 2) If yes, follow with list:
+ ☐ Waterpoints are too far
+ ☐ Waterpoints are difficult to reach (especially for people with disabilities)
+ ☐ Fetching water is a dangerous activity
+ ☐ Some groups (children, women, elderly, ethnic minorities, etc.) do not have access to the waterpoints
+ ☐ Insufficient number of water points / waiting time at water points;
+ ☐ Water points are not functioning or close
+ ☐ Water is not available at the market
+ ☐ Water is too expensive
+ ☐ Not enough container to store the water 
+ ☐ Don’t like taste / quality of water
+ ☐ Other (please list)
+ ☐ Don’t know",select_multiple,,
+household,WASH,Water,1,Percentage of households having access to a sufficient quantity of water,Percentage of households engaging in coping mechanisms for water insufficiency - by types of coping mechanism,(If applicable) How does your household adapt to lack of water?,"☐ Rely on less preferred (unimproved/untreated) water sources for drinking water;
+ ☐ Rely on surface water for drinking water; 
+ ☐ Rely on less preferred (unimproved/untreated) water sources for other purposes such as cooking and washing;
+ ☐ Rely on surface water for other purposes such as cooking and washing;
+ ☐ Fetch water at a source further than the usual one;
+ ☐ Send children to fetch water;
+ ☐ Fetch water at a source that could be dangerous; 
+ ☐ Spend money (or credit) on water that should otherwise be used for other purposes; 
+ ☐ Reduce drinking water consumption (drink less);
+ ☐ Reduce water consumption for other purposes (bathe less, etc.);
+  ☐ Other (please list); ☐ Don’t know",select_multiple,,
+household,WASH,Hygiene,1,Percentage of households with access to functioning handwashing facilities (and soap),"Percentage of households by time (minutes) taken to go the handwashing facility, wash hands and return (including queuing)","How long does it take to go to your main handwashing facility, wash hands and return (including queuing)?","☐ Handwashing device on premises
+ ☐ Less than 5 min 
+ ☐ Between 5 and 15 min 
+ ☐ Between 16 and 30 min 
+ ☐ More than 31 min 
+ ☐ No handwashing device available 
+ ☐ Don’t Know",select_one,,
+household,WASH,Hygiene,2,Percentage of households with access to functioning handwashing facilities (and soap),Percentage of households with access to functioning handwashing facilities - by type of device,What kind of handwashing device do your household members usually use to wash their hands? (Ask to see the handwashing device),"☐ No specific handwashing device (no device at all or only pouring device or simple basin/bucket, with no taps)
+ ☐ Sink with tap water
+ ☐ Buckets with taps
+ ☐ Tippy tap
+ ☐ Other (specify)
+ ☐ Don't know
+ 
+ ☐ Other (specify)
+ ☐ Don't know",select_one,,
+household,WASH,Hygiene,1,Percentage of households with access to functioning handwashing facilities (and soap),Percentage of households with water available at handwashing facility,(Observe): Is water available at the place for handwashing?,☐ Yes; ☐ No; ☐ Now allowed to see the handwashing place☐ Don't know,select_one,,
+household,WASH,Hygiene,1,Percentage of households with access to functioning handwashing facilities (and soap),Percentage of households with soap available at handwashing facility,(Observe): Is soap available at the place for handwashing?,☐ Yes; ☐ No; ☐ Now allowed to see the handwashing place☐ Don't know,select_one,,
+household,WASH,Hygiene,2,Percentage of households with access to soap,Percentage of households having soap at home,"(If soap is not available at the place for handwashing) Do you have any soap in your household? If yes, could you show it?",☐ Yes (soap is shown); ☐Yes (soap is not shown); ☐ No; ☐ Don't know,select_one,,
+household,WASH,Hygiene,1,Percentage of households with access to soap,Percentage of households having problems related to soap access - by type of problem,(If applicable) Please tell me the main reason why your household does not have soap?,☐ Soap is unnecessary; ☐ We run out of soap; ☐ Soap is too expensive; ☐ Soap is not available at the market; ☐ The market is too far away; ☐ Going to the market is dangerous; ☐ The market is difficult to reach (especially for people with disabilities); ☐ Don’t like quality of soap available; ☐ Other (specify) ; ☐ Don't know,select_one,,
+household,WASH,Hygiene,2,Percentage of households where women/girls of menstruating age have access to MHM,Percentage of households by type of menstrual material used by female HH members of menstruating age,"**Only applicable to female-to-female HH interviews**
+ What menstrual materials did you (and other female household members) use during the last monthly period?",☐ Disposable pad; ☐ Reusable pad; ☐ Reusable cloth; ☐ Tampon; ☐ Cotton; ☐ Menstrual cup; ☐ Layers of underwear; ☐ Nothing/bleed into clothes; ☐ Other (specify) ☐ Don't know,select_one,,
+household,WASH,Hygiene,2,Percentage of households where women/girls of menstruating age have access to MHM,Percentage of households where female HH members of menstruating have problems related to menstrual material - by type of problem,"**Only applicable to female-to-female HH interviews**
+ Do you (and other female household members) have problems related to menstrual materials? If yes, which ones?","1) ☐ Yes; ☐ No; ☐ Don’t know 
+ 2) If yes, which ones? 
+ ☐ Menstrual materials are too expensive; ☐ Menstrual materials are not available at the market; ☐ The market is too far away; ☐ Going to the market is dangerous ; ☐ The market is difficult to reach (especially for people with disabilities); ☐ Some groups do not have access to the market; ☐ Don’t like quality of menstrual materials; ☐ Other (specify) ; ☐ Don't know",select_one,,
+household,WASH,Sanitation,1,Percentage of household members with access to functioning sanitation facilities,Percentage of households using a sanitation facility - by type of sanitation facility used,What kind of sanitation facility (latrine/toilet) does your household usually use?,"☐ Flush or pour/flush toilet 
+ ☐ Pit latrine without a slab or platform 
+ ☐ Pit latrine with a slab and platform 
+ ☐ Open hole 
+ ☐ Pit VIP toilet 
+ ☐ Bucket toilet 
+ ☐ Plastic bag
+ ☐ Hanging toilet/latrine
+ ☐ None of the above, open defecation 
+ ☐ Other (specify) 
+ ☐ Don't know",select_one,,
+household,WASH,Sanitation,1,Percentage of household members with access to functioning sanitation facilities,Percentage of households sharing sanitation facility - by number of HH per sanitation facility,"(If applicable) Do you share this sanitation facility with other households? If yes, how many households use this sanitation facility (latrine/toilet)?","1) ☐ Yes; ☐ No; ☐ Don’t know 
+ 2) If yes, 
+ ☐ # of HH; ☐ Other (specify); ☐ Don’t know",select_one_and_integer,,
+household,WASH,Sanitation,1,Percentage of household members with access to functioning sanitation facilities,Percentage of households having problems related to sanitation facilities access - by type of problem,"Do you have problems related to sanitation facilities (latrines/toilets)? If yes, which ones?","1) ☐ Yes; ☐ No; ☐ Don’t know 
+ 2) If yes, select multiple:
+ ☐ Lack of sanitation facilities (latrines/toilets) / facilities too crowded
+ ☐ Sanitation facilities (latrines/toilets) are not functioning or full
+ ☐ Sanitation facilities (latrines/toilets) are unclean/unhygienic
+ ☐ Sanitation facilities (latrines/toilets) are not private (no locks/door/walls/lighting etc.)
+ ☐ Sanitation facilities (latrines/toilets) are not segregated between men and women
+ ☐ Sanitation facilities (latrines/toilets) are too far
+ ☐ Sanitation facilities (latrines/toilets) are difficult to reach (especially for people with disabilities)
+ ☐ Going to the sanitation facilities (latrines/toilets) is dangerous
+ ☐ Some groups (children, women, elderly, ethnic minorities, etc.) do not have access to sanitation facilities (latrines/toilets)
+ ☐ Other (specify)
+ ☐ Don't know",select_multiple,,
+household,WASH,Sanitation,2,Percentage of household members with access to functioning sanitation facilities,Percentage of households engaging in coping mechanisms for sanitation facilities access issues - by types of coping mechanism,(If applicable) How do you adapt to issues related to sanitation facilities (latrines/toilets)?,☐ Rely on less preferred (unhygienic/unimproved) sanitation facilities (latrines/toilets); ☐ Rely on communal sanitation facilities (latrines/toilets); ☐ Defecate in a plastic bag; ☐ Defecate in the open; ☐ Going to sanitation facilities (latrines/toilets) further than the usual one; ☐ Going to sanitation facilities (latrines/toilets) in a dangerous place; ☐ Going to sanitation facilities (latrines/toilets) at night; ☐ Other (specify); ☐ Don't know,select_multiple,,
+household,WASH,Sanitation,1,Percentage of households facing environmental sanitation problems,Percentage of households living in areas where solid waste was visible around their accommodation (30 meters or less) in the last 30 days,Was there visible solid waste/trash in the vicinity (30 meters or less) of your accommodation in the last 30 days?,☐ Never visible; ☐ Sometime visible; ☐ Frequently visible; ☐ Don't know,select_one,,
+household,WASH,Sanitation,2,Percentage of households facing environmental sanitation problems,Percentage of households by solid waste disposal practices,What is the most common way your household disposes of garbage?,☐ Household pit; ☐ Communal pit; ☐ Bin in the household/streets; ☐ Designated open area; ☐ Undesignated open area; ☐ Bury it; ☐ Burn it; ☐ Other (specify) ; ☐ Don't know,select_one,,
+household,WASH,Sanitation,1,Percentage of households facing environmental sanitation problems,Percentage of households living in areas where dead animals were visible around their accommodation (30 meters or less) in the last 30 days,Was there visible traces of dean animals in the vicinity (30 meters or less) of your accommodation in the last 30 days?,☐ Never visible; ☐ Sometime visible; ☐ Frequently visible; ☐ Don't know,select_one,,
+household,WASH,Sanitation,1,Percentage of households facing environmental sanitation problems,Percentage of households living in areas where rodents were visible around their accommodation (30 meters or less) in the last 30 days,Was there visible traces of rodents in the vicinity (30 meters or less) of your accommodation in the last 30 days?,☐ Never visible; ☐ Sometime visible; ☐ Frequently visible; ☐ Don't know,select_one,,
+household,WASH,Sanitation,1,Percentage of households facing environmental sanitation problems,Percentage of households living in areas where human faeces were visible around their accommodation (30 meters or less) in the last 30 days,Was there visible traces of human faeces in the vicinity (30 meters or less) of your accommodation in the last 30 days?,☐ Never visible; ☐ Sometime visible; ☐ Frequently visible; ☐ Don't know,select_one,,
+household,WASH,Sanitation,1,Percentage of households facing environmental sanitation problems,Percentage of households living in areas where stagnant water was visible around their accommodation (30 meters or less) in the last 30 days,Was there visible stagnant water in the vicinity (30 meters or less) of your accommodation in the last 30 days?,☐ Never visible; ☐ Sometime visible; ☐ Frequently visible; ☐ Don't know,select_one,,
