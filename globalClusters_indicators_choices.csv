@@ -1,4 +1,7 @@
-ï»¿list,label::English,name
+list name,label::English,name
+gender,Female,female
+gender,Male,male
+gender,Other,other
 water_source,Public tap/standpipe,publicTap_standpip
 water_source,Handpumps/boreholes,handpumps_borehole
 water_source,Protected well,protectedWell
@@ -13,8 +16,282 @@ water_source,water sachets,waterSachets
 water_source,Tanker trucks,tankerTrucks
 water_source,"Surface water (lake, dam, river, etc.)",surfaceWater
 water_source,Other (please specify),other
-water_source,Donâ€™t know,dkn
-yes_no_dkn,"Yes
-",yes
+water_source,Don’t know,dkn
+yes_no_dkn,Yes,yes
 yes_no_dkn,No,no
-yes_no_dkn,Donâ€™t know,dkn
+yes_no_dkn,Don’t know,dkn
+type_water_container,Protected,protected
+type_water_container,Unprotected,unprotected
+time_water_source,Water on premises,on_premises
+time_water_source,Less than 5 min to fetch and return,less_5min
+time_water_source,Between 5 and 15 min,between_5_and_15min
+time_water_source,Between 16 and 30 min,between_16_and_30min
+time_water_source,More than 31min,more_30min
+time_water_source,Don’t know,dkn
+prob_water,Waterpoints are too far,too_far
+prob_water,Waterpoints are difficult to reach (especially for people with disabilities),too_difficult_reach
+prob_water,Fetching water is a dangerous activity,dangerous
+prob_water,"Some groups (children, women, elderly, ethnic minorities, etc.) do not have access to the   waterpoints",some_grps_no_access
+prob_water,Insufficient number of water points / waiting time at water points;,insufficient_nb_water_points
+prob_water,Water points are not functioning or close,not_functionning
+prob_water,Water is not available at the market,not_available_in_market
+prob_water,Water is too expensive,too_expensive
+prob_water,Not enough container to store the water ,not_enough_container_store
+prob_water,Don’t like taste / quality of water,bad_quality_water
+prob_water,Other (please list),other
+prob_water,Don’t know,dkn
+coping_strat_water,Rely on less preferred (unimproved/untreated) water sources for drinking water;,rely_less_pref_source_drk
+coping_strat_water,Rely on surface water for drinking water; ,rely_surface_water_drk
+coping_strat_water,Rely on less preferred (unimproved/untreated) water sources for other purposes such as cooking and washing;,rely_less_pref_source_other
+coping_strat_water,Rely on surface water for other purposes such as cooking and washing;,rely_surface_water_other
+coping_strat_water,Fetch water at a source further than the usual one;,fetch_further
+coping_strat_water,Send children to fetch water;,fetch_children
+coping_strat_water,Fetch water at a source that could be dangerous; ,fetch_dangerous_source
+coping_strat_water,Spend money (or credit) on water that should otherwise be used for other purposes; ,spend_money_water
+coping_strat_water,Reduce drinking water consumption (drink less);,drink_less
+coping_strat_water,"Reduce water consumption for other purposes (bathe less, etc.);",bath_less
+coping_strat_water,Other (please list),other
+coping_strat_water,Don't know,dkn
+time_handwash,Handwashing device on premises,handwash_on_premises
+time_handwash,Less than 5 min ,less_5min
+time_handwash,Between 5 and 15 min ,between_5_and_15min
+time_handwash,Between 16 and 30 min ,between_16_and_30min
+time_handwash,More than 31 min ,more_30min
+time_handwash,No handwashing device available ,no_handwash
+time_handwash,Don’t Know,dkn
+type_handwash,"No specific handwashing device (no device at all or only pouring device or simple basin/bucket,  with no taps)",no_specific_handwash
+type_handwash,Sink with tap water,sink_with_tap_water
+type_handwash,Buckets with taps,buckets_taps
+type_handwash,Tippy tap,tippy_tap
+type_handwash,Other (specify),other
+type_handwash,Don't know,dkn
+yes_no_notAllowed_dkn,Yes,yes
+yes_no_notAllowed_dkn,No,no
+yes_no_notAllowed_dkn,Not allowed to see the handwashing place,notAllowed
+yes_no_notAllowed_dkn,Don't know,dkn
+yes_no_soap_dkn,Yes (soap is shown),yes_shown
+yes_no_soap_dkn,Yes (soap not shown),yes_not_shown
+yes_no_soap_dkn,No,no
+yes_no_soap_dkn,Don't know,dkn
+prob_soap,Soap is unnecessary,unnecessary
+prob_soap,We run out of soap,run_out
+prob_soap,Soap is too expensive,too_expensive
+prob_soap,Soap is not available at the market,not_available_in_market
+prob_soap,The market is too far away,market_too_far
+prob_soap,Going to the market is dangerous,going_market_dangerous
+prob_soap,The market is difficult to reach (especially for people with disabilities),market_difficult_reach
+prob_soap,Don’t like quality of soap available,bad_quality_soap
+prob_soap,Other (specify),other
+prob_soap,Don't know,dkn
+mhm,Disposable pad,disposable_pad
+mhm,Reusable pad,reusable_pad
+mhm,Reusable cloth,reusable_cloth
+mhm,Tampon,tampon
+mhm,Cotton,cotton
+mhm,Menstrual cup,menstrual_cup
+mhm,Layers of underwear,layers_underwear
+mhm,Nothing/bleed into clothes,nothing
+mhm,Other (specify),other
+mhm,Don't know,dkn
+prob_mhm,Menstrual materials are too expensive,too_expensive
+prob_mhm,Menstrual materials are not available at the market,not_available_in_market
+prob_mhm,The market is too far away,market_too_far
+prob_mhm,Going to the market is dangerous,going_market_dangerous
+prob_mhm,The market is difficult to reach (especially for people with disabilities),market_difficult_reach
+prob_mhm,Some groups do not have access to the market,some_grps_no_access
+prob_mhm,Don’t like quality of menstrual materials,bad_quality_mhm
+prob_mhm,Other (specify),other
+prob_mhm,Don't know,dkn
+san_infra,Flush or pour/flush toilet       ,flush_toilet
+san_infra,Pit latrine without a slab or platform    ,pit_latrine_no_slab
+san_infra,Pit latrine with a slab and platform  ,pit_latrine_slab
+san_infra,Open hole  ,open_hole
+san_infra,Pit VIP toilet      ,VIP
+san_infra,Bucket toilet ,bucket
+san_infra,Plastic bag,plastic_bag
+san_infra,Hanging toilet/latrine,hanging_toilet
+san_infra,"None of the above, open defecation          ",none_OD
+san_infra,Other (specify)      ,other
+san_infra,Don't know,dkn
+prob_san_fac,No problem,no_problem
+prob_san_fac,Lack of sanitation facilities (latrines/toilets) / facilities too crowded,lack_too_crowded
+prob_san_fac,Sanitation facilities (latrines/toilets) are not functioning or full,not_funct_full
+prob_san_fac,Sanitation facilities (latrines/toilets) are unclean/unhygienic,unclean
+prob_san_fac,Sanitation facilities (latrines/toilets) are not private (no locks/door/walls/lighting etc.),not_private
+prob_san_fac,Sanitation facilities (latrines/toilets) are not segregated between men and women,not_segregated
+prob_san_fac,Sanitation facilities (latrines/toilets) are too far,too_far
+prob_san_fac,Sanitation facilities (latrines/toilets) are difficult to reach (especially for people with disabilities),difficult_reach
+prob_san_fac,Going to the sanitation facilities (latrines/toilets) is dangerous,dangerous
+prob_san_fac,"Some groups (children, women, elderly, ethnic minorities, etc.) do not have access to sanitation  facilities (latrines/toilets)",some_grps_no_access
+prob_san_fac,Other (specify),other
+prob_san_fac,Don't know,dkn
+coping_strat_san,Rely on less preferred (unhygienic/unimproved) sanitation facilities (latrines/toilets),rely_less_pref_san
+coping_strat_san,Rely on communal sanitation facilities (latrines/toilets),rely_communal_san
+coping_strat_san,Defecate in a plastic bag,plastic_bag
+coping_strat_san,Defecate in the open,open_def
+coping_strat_san,Going to sanitation facilities (latrines/toilets) further than the usual one,further_san
+coping_strat_san,Going to sanitation facilities (latrines/toilets) in a dangerous place,dangerous_san
+coping_strat_san,Going to sanitation facilities (latrines/toilets) at night,at_night
+coping_strat_san,Other (specify),other
+coping_strat_san,Don't know,dkn
+visible,Never visible,never_visible
+visible,Sometime visible,sometime_visible
+visible,Frequently visible,frequently_visible
+visible,Don't know,dkn
+waste_disposal,Household pit,household_pit
+waste_disposal,Communal pit,communal_pit
+waste_disposal,Bin in the household/streets,bin_hh_street
+waste_disposal,Designated open area,designated_open_area
+waste_disposal,Undesignated open area,undesignated_open_area
+waste_disposal,Bury it,bury
+waste_disposal,Burn it,burn
+waste_disposal,Other (specify),other
+waste_disposal,Don't know,dkn
+satisfaction,Very satisfied,very_satisfied
+satisfaction,Satisfied,satisfied
+satisfaction,Unsatisfied,unsatisfied
+satisfaction,Very unsatisfied,very_unsatisfied
+satisfaction,Don’t know,dkn
+water_treat_freq,"Yes, always treat it before drinking",always
+water_treat_freq,"Yes, sometimes treat it before drinking",sometimes
+water_treat_freq,"No, never treat it before drinking",no
+water_treat_freq,Don’t know,dkn
+water_treat_type,Let it stand and settle,let_stand_settle
+water_treat_type,Boil it,boil
+water_treat_type,Expose it to sunlight,expose_to_sunlight
+water_treat_type,Aquatabs/water purification tablets,aquatabs_purification_tablets
+water_treat_type,Liquid chlorine,liquid_chlorine
+water_treat_type,Powder or granular chlorine,powder_granular_chlorine
+water_treat_type,PuR or Watermaker sachets,pur_watermaker_sachets
+water_treat_type,Biosand Filter,biosand
+water_treat_type,Ceramic Pot Filter,ceramic_Filter
+water_treat_type,Candle Filter/Bucket Filter,candle_bucket_Filter
+water_treat_type,Other,other
+water_treat_type,Don’t know,dkn
+freq_refill,Daily,daily
+freq_refill,Weekly,weekly
+freq_refill,Monthly,monthly
+water_cuts,More than once a day,more_once_day
+water_cuts,Every day,every_day
+water_cuts,Twice a week,twice_week
+water_cuts,Once a week,once_week
+water_cuts,No water cuts at all,no_water_cuts
+water_cuts,Don’t know,dkn
+other_mhm,No,no
+other_mhm,Disposable pad,disposable_pad
+other_mhm,Reusable pad,reusable_pad
+other_mhm,Reusable cloth,reusable_cloth
+other_mhm,Cotton,cotton
+other_mhm,Menstrual cup,menstrual_cup
+other_mhm,Layers of underwear,layers_underwear
+other_mhm,Tampon,tampon
+other_mhm,Other (specify),other
+other_mhm,Don't know,dkn
+prob_wash_nfi,No problem,no
+prob_wash_nfi,Soap and other hygiene items are too expensive,too_expensive
+prob_wash_nfi,Soap and other hygiene items are not available at the market,not_available_in_market
+prob_wash_nfi,The market is too far away,market_too_far
+prob_wash_nfi,The market is difficult to reach (especially for people with disabilities),market_difficult_reach
+prob_wash_nfi,Going to the market is dangerous,market_too_dangerous
+prob_wash_nfi,Some groups do not have access to the market,some_grps_no_access
+prob_wash_nfi,Don’t like quality of soap and other hygiene items,bad_quality_nfi
+prob_wash_nfi,Other (specify),other
+prob_wash_nfi,Don't know,dkn
+coping_strat_wash_nfi,Rely on less preferred types of NFI,rely_less_pref_nfi
+coping_strat_wash_nfi," Rely on soap substitutes (sand or other rubbing agents for soap, clothing for diapers, etc.)",rely_soap_substitutes
+coping_strat_wash_nfi, Buying NFI at a market place further than the usual one,buy_market_further
+coping_strat_wash_nfi, Buying NFI at a market place in a dangerous place,buy_market_dangerous
+coping_strat_wash_nfi, Borrow NFI from a friend or relative ,borrow_nfi_friends
+coping_strat_wash_nfi, Spend money (or credit) on NFI that should otherwise be used for other purposes,spend_money_nfi
+coping_strat_wash_nfi, Reduce NFI consumption for personal hygiene,reduce_nfi_pers_hyg
+coping_strat_wash_nfi," Reduce NFI consumption for other purposes (cleaning dishes, laundry, etc.) ",reduce_nfi_other_purpose
+coping_strat_wash_nfi, Other (specify) ,other
+coping_strat_wash_nfi, Don't know,dkn
+critical_handwash_time, Before eating,before_eating
+critical_handwash_time, Before cooking/meal preparation,before_cooking
+critical_handwash_time, After defecation,after_defecation
+critical_handwash_time, Before breastfeeding,before_breastfeeding
+critical_handwash_time, Before feeding children,before_feeding_children
+critical_handwash_time, After handling a child’s stool/changing a nappy/cleaning a child’s bottom,after_handling_stool
+critical_handwash_time, Other,other
+critical_handwash_time, Don’t know or no response given,dkn
+tbc,TBC,TBC
+child_defecate,Household latrine,hh_latrine
+child_defecate,Communal latrine,communal_latrine
+child_defecate,Open defecation,od
+child_defecate,Plastic bag,plastic_bag
+child_defecate,Bucket toilet,bucket_toilet
+child_defecate,Other (specify),other
+child_defecate,Don’t know,dkn
+feces_under5,Collected and disposed in a sanitation facility (latrines/toilets),in_latrine
+feces_under5,Collected and disposed of elsewhere,disposed_elsewhere
+feces_under5,Nothing is done with it (open defecation),nothing_od
+feces_under5,Buried it,buried
+feces_under5,Other (specify),other
+feces_under5,Don't know,dkn
+priorities,"Being able to access water for drinking, cooking, bathing and washing (both quality and quantity)",access_water_drk_cook_bath_wash
+priorities,Being able to access adequate sanitation facilities (toilets/latrines) ,access_adq_san_fac
+priorities,Being able to ensure personal hygiene,personal_hyg
+priorities,"Having a healthy environment around the house, e.g. no visible solid waste, stagnant water, etc. ",healthy_envir
+priorities,No problem or concern ,no_problem
+priorities,Other (specify),other
+priorities,Don't know,dkn
+type_interventions,"Cash for buying water items (containers, water treatment, etc.) or buying water",cash_water_items
+type_interventions,"Direct provision/distribution of water items (containers, water treatment, etc.)",provision_water_items
+type_interventions,Direct provision of water (water trucking),water_trucking
+type_interventions,Construction/rehabilitation of water points    ,construct_rehab_water_point
+type_interventions,Advice on construction/rehabilitation of water points ,advice_construct_rehab_water_point
+type_interventions,Advise on water treatment ,advise_water_treat
+type_interventions,Cash to build or improve sanitation facilities (toilets/latrines,cash_improve_latrine
+type_interventions,Direct construction or rehabilitation of sanitation facilities toilets/latrines) ,construct_latrine
+type_interventions,Advice on construction/rehabilitation of sanitation facilities (toilets/latrines),advice_construct_latrine
+type_interventions,"Cash for buying hygiene items (soap, diapers, pad, toothbrush, toothpaste, etc.)",cash_hygiene_item
+type_interventions,"Direct provision of hygiene items (soap, diapers, pad, toothbrush, toothpaste, etc.)",provision_hyg_item
+type_interventions,Advice on personal hygiene ,advice_personal_hyg
+type_interventions,Other (specify),other
+type_interventions,Don't know,dkn
+water_source_ki,Public tap/standpipe,publicTap_standpip
+water_source_ki,Handpumps/boreholes,handpumps_borehole
+water_source_ki,Protected well,protectedWell
+water_source_ki,Unprotected well,unprotectedWell
+water_source_ki,Water seller/kiosks,waterSeller_kiosks
+water_source_ki,Piped connection to house (or neighbor's house),ipedConnectionToHouseOrNeighbors
+water_source_ki,Protected spring,protectedSpring
+water_source_ki,Unprotected spring,unprotectedSpring
+water_source_ki,Rain water collection,rainWaterCollection
+water_source_ki,Bottled water/water sachets,bottledSachet_Water
+water_source_ki,Tanker trucks,tankerTrucks
+water_source_ki,"Surface water (lake, pond, dam, river)",surfaceWater
+water_source_ki,Other (please specify),other
+water_source_ki,Don’t know,dkn
+prop_com,Nobody (around 0%);,nobody
+prop_com,A few (around 25%);,few
+prop_com,About half (around 50%);,half
+prop_com,Most (around 75%);,most
+prop_com,Everyone (around 100%);,everyone
+prop_com,Don't know,dkn
+prob_soap_ki,Soap and other hygiene items are too expensive for some people,too_expensive
+prob_soap_ki,Soap and other hygiene items are not available at the market,not_available_in_market
+prob_soap_ki,The market is too far away,market_too_far
+prob_soap_ki,The market is difficult to reach (especially for people with disabilities),difficult_reach_market
+prob_soap_ki,Going to the market is dangerous,market_dangerous
+prob_soap_ki,Some groups do not have access to the market,some_grps_no_access
+prob_soap_ki,Some people do not like quality of soap and other hygiene items,bad_quality_nfi
+prob_soap_ki,Other (specify),other
+prob_soap_ki,Don't know,dkn
+coping_strat_wash_nfi,"Rely on soap substitutes (sand or other rubbing agents for soap, clothing for diapers, etc.)",rely_soap_substitutes
+coping_strat_wash_nfi,Buying NFI at a market place further than the usual one,buy_market_further
+coping_strat_wash_nfi,Buying NFI at a market place in a dangerous place,buy_market_dangerous
+coping_strat_wash_nfi,Borrow NFI from a friend or relative ,borrow_nfi_friends
+coping_strat_wash_nfi,Spend money (or credit) on NFI that should otherwise be used for other purposes,spend_money_nfi
+coping_strat_wash_nfi,Reduce NFI consumption for personal hygiene,reduce_nfi_pers_hyg
+coping_strat_wash_nfi,"Reduce NFI consumption for other purposes (cleaning dishes, laundry, etc.) ",reduce_nfi_other_purpose
+coping_strat_wash_nfi,Other (specify) ,other
+coping_strat_wash_nfi,Don't know,dkn
+freq_garbage,Everyday,everyday
+freq_garbage,Once a week,once_week
+freq_garbage,Once a month,once_month
+freq_garbage,Less than once a month,less_once_month
+freq_garbage,Never collected,never
+freq_garbage,Other (specify),other
+freq_garbage,Don't know,dkn

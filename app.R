@@ -99,6 +99,9 @@ ui <- fluidPage(
       titlePanel("Form validation against Core Indicators"),
       sidebarPanel(
         fileInput("formfile", label = h4("Upload your XLSform"),accept = c(".xlsx",".xls")),
+        radioButtons('language', 'Language of the form', choices = list('English' = 'English')),
+        radioButtons('type_form', 'Type of data collection methodology:', choices = list('Household' = 'hh',
+                                                                                         'Key Informant' = 'ki')),
         selectizeInput("checkbox_clusters", label = 'Against with sectors/themes do you want to check your form?',
                       choices = list('All' = 'all','REACH' = 'REACH', 'WASH' = 'WASH', 'Education' = 'edu',
                                      'Food Security and Livelihoods' = 'FSL', 'Shelter/NFI' = 'SNFI',
@@ -107,7 +110,6 @@ ui <- fluidPage(
                                      'Demographic' = 'demo', 'People on the move' = 'peopleMove'),
                       selected = 'all',
                       multiple = TRUE),
-        radioButtons('language', 'Language of the form', choices = list('English' = 'English')),
         actionButton('validate_form', 'Validate form'),
         
         downloadButton("downloadReport", "Download report")
@@ -131,6 +133,7 @@ server <- function(input, output) {
     
     inForm <- input$formfile
     langs <- input$language
+    typeForm <- input$type_form
     
     clusters <- input$checkbox_clusters
     
@@ -159,12 +162,8 @@ server <- function(input, output) {
         filter(qtype %in% types_q)
       
       globalClusters_questions_filtered <- globalClusters_questions%>%
-        filter(sector %in% clusters)
+        filter(sector %in% clusters,interview_method == typeForm)
       
-      globalClusters_questions_filtered <- globalClusters_questions%>%
-        filter(sector %in% clusters)
-      
-
       report_all <- checkIndic_all(questions_filtered, choices,
                                    global_choices = globalClusters_choices, global_questions = globalClusters_questions_filtered,
                                    lang = langs)
